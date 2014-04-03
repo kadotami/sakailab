@@ -1,0 +1,20 @@
+@import 'setting';
+.page-title {
+  margin: 0 0 10px 20px;
+  font-size: 25px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.add-side-page-content {
+  width: $add_side_content_width;
+  margin-right: 20px;
+  float: left;
+}
+
+.sidebar {
+  width: $sidebar_width;
+  margin: 20px 20px;
+  float: left;
+}

@@ -1,0 +1,37 @@
+@import 'setting';
+$member_list_width: 400px;
+$member_list_height: 100px;
+$bar_width: 600px;
+
+.member-list {
+  .member-grade {
+    width: $bar_width;
+    margin: 20px auto;
+    text-align: center;
+    background: #888;
+  }
+  ul {
+    li {
+      width: $member_list_width;
+      height: $member_list_height;
+      margin: 10px auto;
+      a {
+        .member-image {
+          width: $member_list_height;
+          height: $member_list_height;
+          float: left;
+          img {
+            width: 100%;
+            height: 100%;
+            vertical-align: bottom;
+          }
+        }
+        .member-name {
+          width: $member_list_width - $member_list_height;
+          line-height: $member_list_height;
+          float: left;
+        }
+      }
+    }
+  }
+}

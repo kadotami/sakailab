@@ -1,0 +1,15 @@
+.page-title {
+  margin: 0 0 10px 20px;
+  font-size: 25px; }
+  .page-title a {
+    text-decoration: none; }
+
+.add-side-page-content {
+  width: 650px;
+  margin-right: 20px;
+  float: left; }
+
+.sidebar {
+  width: 250px;
+  margin: 20px 20px;
+  float: left; }

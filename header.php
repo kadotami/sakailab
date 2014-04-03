@@ -10,25 +10,21 @@
 	</script>
 </head>
 <body>
-	<div class="header-back-image">
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/header_back.png">
-	</div>
 	<div id="header">
-		<div id="header_contents">
-			<div id="title"><?php bloginfo('name'); ?></div>
-			<div class="sub-title">~ほげふがぴよ〜ん♪~</div>
+		<div class="header-contents">
+			<div class="title"><?php bloginfo('name'); ?></div>
 		</div>
 	</div>
 	<div id="nav">
 		<ul>
 			<li><a href="/">TOP</a></li>
-			<li><a href="/profile">PROFILE</a></li>
-			<li><a href="/hobby">HOBBY</a></li>
+			<li><a href="/members">MEMBERS</a></li>
+			<li><a href="/news">NEWS</a></li>
+			<div class="clear-both"></div>
 		</ul>
-		<div class="clear-both"></div>
 	</div>
 
-	<div id="page_navigator"></div>
+	<div id="page-navigator"></div>
 
 <?php wp_head(); ?>
 

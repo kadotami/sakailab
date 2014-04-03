@@ -1,0 +1,15 @@
+/*
+Theme Name: blog
+Theme URI: http://sakailab.com/
+Author: kadotami
+Author URI: http://sakailab.com/
+Description: sakailab
+Version: 1.0
+*/
+@import 'assets/stylesheets/reset.css';
+@import 'assets/stylesheets/main.css';
+@import 'assets/stylesheets/header.css';
+@import 'assets/stylesheets/top.css';
+@import 'assets/stylesheets/member.css';
+@import 'assets/stylesheets/news.css';
+@import 'assets/stylesheets/page.css';
