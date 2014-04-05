@@ -18,8 +18,11 @@
 	<div id="nav">
 		<ul>
 			<li><a href="/">TOP</a></li>
+			<li><a href="/projects">PROJECTS</a></li>
 			<li><a href="/members">MEMBERS</a></li>
 			<li><a href="/news">NEWS</a></li>
+			<li><a href="/links">LINKS</a></li>
+			<li><a href="/contact">CONTACT</a></li>
 			<div class="clear-both"></div>
 		</ul>
 	</div>

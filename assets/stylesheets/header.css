@@ -2,24 +2,27 @@
   width: 960px;
   height: 60px;
   margin: 40px auto 0;
-  background: rgba(255, 255, 255, 0.8);
+  background: #efefef;
   color: #000; }
   #header .header-contents {
-    width: 960px;
-    margin: 0 auto; }
+    padding: 5px 20px; }
+    #header .header-contents .title {
+      font-size: 25px; }
 
 #nav {
   width: 960px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.6); }
+  background-image: url(../images/nav-back.jpg); }
   #nav ul {
     width: 960px;
     margin: 0 auto; }
     #nav ul li {
-      height: 30px;
-      line-height: 30px;
+      height: 36px;
+      line-height: 36px;
       float: left;
-      margin: 0 10px; }
+      padding: 0 10px;
+      border-right: solid 1px #00f; }
       #nav ul li a {
+        color: #ffff00;
         display: block;
         text-decoration: none; }

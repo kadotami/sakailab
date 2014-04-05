@@ -4,6 +4,10 @@
   .page-title a {
     text-decoration: none; }
 
+.no-side-page-content {
+  width: 900px;
+  margin: 0 auto; }
+
 .add-side-page-content {
   width: 650px;
   margin-right: 20px;

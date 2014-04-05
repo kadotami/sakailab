@@ -5,29 +5,34 @@ $header_height: 60px;
   width: $contents_width;
   height: $header_height;
   margin: 40px auto 0;
-  background: rgba(255,255,255,0.8);
+  background: #efefef;
   color: #000;
   .header-contents {
-    width: $contents_width;
-    margin: 0 auto;
+    padding: 5px 20px;
+    .title {
+      font-size: 25px;
+    }
   }
 }
 #nav {
   width: $contents_width;
   margin: 0 auto;
-  background: rgba(255,255,255,0.6);
+  background-image:url(../images/nav-back.jpg);
   ul {
     width: $contents_width;
     margin: 0 auto;
     li {
-      height: 30px;
-      line-height: 30px;
+      height: 36px;
+      line-height: 36px;
       float: left;
-      margin:0 10px;
+      padding:0 10px;
+      border-right: solid 1px #00f;
       a {
+        color: #ffff00;
         display: block;
         text-decoration: none;
       }
     }
   }
 }
+
