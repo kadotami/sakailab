@@ -3,7 +3,8 @@ body {
   background-image: url(../images/light-wool.png); }
 
 #container {
-  width: 960px;
+  width: 912px;
   margin: 0 auto;
   padding: 20px 0;
-  background: #efefef; }
+  background: #fff;
+  background-image: url(../images/shadow.gif); }

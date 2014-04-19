@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<div id="container">
-		<div id="contents">
+		<div class="no-side-page-content">
 			<?php
 				if(have_posts()) :
 					while(have_posts()) :
@@ -9,10 +9,11 @@
 
 				<div class="single-post">
 					<div class="post-header">
-						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-						<div class="post-meta">
-							<?php echo get_the_date(); ?> 【<?php the_category(', ')?>】
+						<h2><?php the_title(); ?></h2>
+						<div class="post-date">
+							<?php echo get_the_date(Y年n月j日); ?>
 						</div>
+						<div class="clear-both"></div>
 					</div>
 					<div class="post-contents">
 							<?php the_content(); ?>
@@ -37,7 +38,6 @@
 
 			</div>
 		</div>
-		<?php get_sidebar(); ?>
 	</div>
 	<?php get_footer(); ?>
 </body>

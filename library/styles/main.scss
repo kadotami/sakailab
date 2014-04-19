@@ -1,12 +1,13 @@
 @import 'setting';
 body {
-  background: $main_color;
-  background-image: url(../images/light-wool.png);
+  background:$main_color;
+  background-image:url(../images/light-wool.png);
 }
 
 #container {
   width: $contents_width;
   margin: 0 auto;
   padding: 20px 0;
-  background: #efefef;
+  background:#fff;
+  background-image: url(../images/shadow.gif);
 }

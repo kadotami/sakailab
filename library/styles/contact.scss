@@ -1,10 +1,16 @@
 .contact {
   .contact-block {
-    margin: 5px 0;
+    margin: 15px 0;
+    h3 {
+      margin-left: 10px;
+    }
+    span {
+      padding: 0 30px;
+    }
   }
   .access-map {
     width: 500px;
     height: 500px;
-    margin: 5px auto;
+    margin: 20px auto;
   }
 }

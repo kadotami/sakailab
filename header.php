@@ -12,17 +12,17 @@
 <body>
 	<div id="header">
 		<div class="header-contents">
-			<div class="title"><?php bloginfo('name'); ?></div>
+			<div class="title">Real Sakai Lab</div>
 		</div>
 	</div>
 	<div id="nav">
 		<ul>
-			<li><a href="/">TOP</a></li>
-			<li><a href="/projects">PROJECTS</a></li>
-			<li><a href="/members">MEMBERS</a></li>
-			<li><a href="/news">NEWS</a></li>
-			<li><a href="/links">LINKS</a></li>
-			<li><a href="/contact">CONTACT</a></li>
+			<a href="/" <?php if (is_page('top')): ?> class="current"<?php endif; ?>><li>TOP</li></a>
+			<a href="/projects" <?php if (is_page('projects')): ?> class="current"<?php endif; ?>><li>PROJECTS</li></a>
+			<a href="/members" <?php if (is_page('members')): ?> class="current"<?php endif; ?>><li>MEMBERS</li></a>
+			<a href="/news" <?php if (is_page('news')): ?> class="current"<?php endif; ?>><li>NEWS</li></a>
+			<a href="/links" <?php if (is_page('links')): ?> class="current"<?php endif; ?>><li>LINKS</li></a>
+			<a href="/contact" <?php if (is_page('contact')): ?> class="current"<?php endif; ?>><li>CONTACT</li></a>
 			<div class="clear-both"></div>
 		</ul>
 	</div>

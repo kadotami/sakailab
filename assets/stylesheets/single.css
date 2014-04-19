@@ -1,0 +1,21 @@
+.single-post .post-header {
+  width: 100%;
+  border-bottom: solid 2px #1a0b66;
+  height: 40px; }
+  .single-post .post-header h2 {
+    line-height: 40px;
+    font-size: 25px;
+    float: left; }
+  .single-post .post-header .post-date {
+    float: right;
+    line-height: 40px; }
+.single-post .post-contents {
+  padding: 15px 0; }
+  .single-post .post-contents h2 {
+    margin-top: 20px; }
+  .single-post .post-contents p {
+    width: 90%;
+    margin: 10px 5%; }
+  .single-post .post-contents li {
+    margin-left: 5%;
+    list-style-type: square; }
