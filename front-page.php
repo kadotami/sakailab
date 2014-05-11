@@ -2,10 +2,7 @@
 <div id="container">
 	<div class="slide-show">
 	</div>
-	<div class="no-side-page-content">
-		<div id="top_slide">
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/back1.JPG">
-		</div>
+	<div class="content">
 		<div class="recent_posts">
 		  <h4>新着情報</h4>
 		  <ul>
@@ -13,6 +10,7 @@
 		  </ul>
 		</div>
 	</div>
+	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
 </body>

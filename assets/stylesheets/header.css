@@ -1,39 +1,15 @@
 #header {
-  width: 100%;
-  height: 60px;
-  background: #000; }
-  #header .header-contents {
-    color: #fff;
-    position: relative;
-    left: 6px;
-    width: 912px;
-    margin: 0 auto;
-    padding: 5px 20px; }
-    #header .header-contents .title {
-      font-size: 25px; }
-
-#nav {
-  width: 100%;
-  margin: 0 auto;
-  background-image: url(../images/nav-back.jpg); }
-  #nav ul {
-    position: relative;
-    left: 6px;
-    width: 912px;
-    margin: 0 auto; }
-    #nav ul .current {
-      border-bottom: solid 2px #ffff00; }
-    #nav ul a:first-child {
-      border-left: solid 1px #00f; }
-    #nav ul a {
-      color: #ffff00;
-      height: 36px;
-      text-decoration: none;
-      float: left; }
-      #nav ul a li {
-        padding: 0 10px;
-        line-height: 36px;
-        text-align: center;
-        border-right: solid 1px #00f; }
-    #nav ul a:hover {
-      border-bottom: solid 2px #ffff00; }
+  width: 100%; }
+  #header .title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    width: 180px; }
+    #header .title img {
+      width: 100%; }
+  #header .header-right-area {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 5px; }

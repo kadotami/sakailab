@@ -1,8 +1,17 @@
 <div id="sidebar">
-	<form role="search" method="get" id="searchform" class="searchform" action="http://kdtm.modern-min.net/">
-		<div class="search_form">
-			<input type="text" value="" name="s" id="s" placeholder="検索">
-			<!-- <input type="submit" id="searchsubmit" value="検索"> -->
-		</div>
-	</form>
+  <div class="title">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.png">
+  </div>
+  <div id="nav">
+    <ul>
+      <a href="/"><li>Top</li></a>
+      <a href="/projects"><li>Projects</li></a>
+      <a href="/members"><li>Members</li></a>
+      <a href="/news"><li>News</li></a>
+      <a href="/links"><li>Links</li></a>
+      <a href="/contact"><li>Contact</li></a>
+      <a href=""><li class="last">English</li4></a>
+      <div class="clear-both"></div>
+    </ul>
+  </div>
 </div>

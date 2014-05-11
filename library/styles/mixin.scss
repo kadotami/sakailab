@@ -65,6 +65,12 @@ $set_prefix: -webkit-, -moz-, -ms-, -o-, '';
   }
 }
 
+@mixin animation($name,$second,$timing,$delay,$roop,$direction){
+  @each $prefix in $set_prefix {
+    #{$prefix}animation: $name $second $timing $delay $roop $direction;
+  }
+}
+
 /* clearfix */
 .clearfix {
   *zoom: 1;

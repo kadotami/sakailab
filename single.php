@@ -11,6 +11,7 @@
 					<div class="post-header">
 						<h2><?php the_title(); ?></h2>
 						<div class="post-date">
+							<?php the_author(); ?>
 							<?php echo get_the_date(Y年n月j日); ?>
 						</div>
 						<div class="clear-both"></div>
