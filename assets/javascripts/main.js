@@ -1,11 +1,11 @@
 (function() {
-  var array, canvas, clear_color, context, delete_finish, e, lang, random_lang, sample;
+  var array, canvas, clear_color, context, delete_finish, e, i, random_lang, sample;
 
   array = {
     language: ['自然言語処理', 'テリーヌ', '情報検索', 'コトバのウチュウ', 'Reborn', '酒井研', '形態素解析', '照応解析', 'deep learning']
   };
 
-  lang = array.language[0];
+  i = 0;
 
   e = document.getElementById('background');
 
@@ -20,10 +20,13 @@
     left = Math.floor(Math.random() * 1000 + 20);
     lang_block = '<div class="random-sentence" style="position:absolute; top:' + top + 'px;left:' + left + 'px;"><i class="fa fa-star"></i>' + array.language[rand] + '</div>';
     $("#background").append(lang_block);
-    return setTimeout(random_lang, 2000);
+    setTimeout(random_lang, 2000);
+    i++;
+    if (i > 10) {
+      $("#background").empty();
+      return i = 0;
+    }
   };
-
-  random_lang();
 
   canvas = document.getElementById('background');
 

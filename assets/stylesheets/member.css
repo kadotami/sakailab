@@ -9,32 +9,45 @@
     visibility: hidden; }
 
 .member-list {
-  width: 1050px;
-  margin: 0 auto; }
+  width: 100%;
+  margin: 0;
+  font-family: cursive; }
   .member-list .member-grade {
     width: 600px;
     margin: 20px auto;
     text-align: center;
-    background: #888; }
-  .member-list ul .professor {
-    margin: 10px auto; }
-  .member-list ul .students {
-    float: left;
-    margin: 20px 25px; }
-  .member-list ul li {
-    -webkit-box-shadow: 5px 5px 5px 0px #333333;
-    -moz-box-shadow: 5px 5px 5px 0px #333333;
-    -ms-box-shadow: 5px 5px 5px 0px #333333;
-    -o-box-shadow: 5px 5px 5px 0px #333333;
-    box-shadow: 5px 5px 5px 0px #333333;
-    background: rgba(200, 100, 20, 0.5);
-    width: 300px; }
-    .member-list ul li a .member-image {
+    font-size: 30px; }
+  .member-list ul {
+    text-align: center; }
+    .member-list ul li {
+      position: relative; }
+    .member-list ul .professor {
       width: 300px;
-      height: 300px; }
-      .member-list ul li a .member-image img {
-        width: 70%;
-        margin: 15%;
+      height: 320px;
+      margin: 10px auto; }
+    .member-list ul a .member-image {
+      width: 80%;
+      height: 80%;
+      margin: 0 10%; }
+      .member-list ul a .member-image img {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        width: 100%;
+        margin: 20px 0;
         vertical-align: bottom; }
-    .member-list ul li a .member-name {
-      text-align: center; }
+    .member-list ul .member-name {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-size: 22px; }
+  .member-list .students-area {
+    width: 600px;
+    margin: 10px auto; }
+    .member-list .students-area .students {
+      width: 250px;
+      height: 270px;
+      float: left;
+      margin: 20px 25px; }

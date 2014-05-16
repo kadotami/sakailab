@@ -1,26 +1,18 @@
 .page-title {
-  margin: 0 0 10px 20px;
-  font-size: 25px; }
+  margin: 0 0 10px;
+  font-size: 35px;
+  font-family: cursive;
+  padding-left: 10px;
+  border-left: solid 4px #08f; }
   .page-title a {
     text-decoration: none; }
 
-.no-side-page-content {
-  min-height: 500px;
-  width: 852px;
-  margin: 0 auto; }
-
-.add-side-page-content {
-  min-height: 500px;
-  width: 602px;
-  margin-right: 20px;
-  float: left; }
-
 .sidebar {
-  width: 250px;
+  width: 158px;
   margin: 20px 20px;
   float: left; }
   .sidebar ul {
-    width: 210px;
+    width: 118px;
     margin: 0 20px; }
     .sidebar ul li {
       background-image: url(../images/list-back.jpg);

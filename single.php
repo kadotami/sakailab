@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<div id="container">
-		<div class="no-side-page-content">
+		<div class="content">
 			<?php
 				if(have_posts()) :
 					while(have_posts()) :
@@ -39,7 +39,7 @@
 
 			</div>
 		</div>
+		<?php get_sidebar(); ?>
 	</div>
-	<?php get_footer(); ?>
 </body>
 </html>

@@ -1,44 +1,57 @@
 @import 'setting';
 @import 'mixin';
-$member_list_width: 300px;
-$member_list_height: 300px;
 $bar_width: 600px;
 
 .member-list {
-  width: 1050px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
+  font-family: cursive;
   .member-grade {
     width: $bar_width;
     margin: 20px auto;
     text-align: center;
-    background: #888;
+    font-size: 30px;
   }
   ul {
+    text-align: center;
+    li {
+      position: relative;
+    }
     .professor {
+      width: 300px;
+      height: 320px;
       margin: 10px auto;
     }
+    a {
+      .member-image {
+        width: 80%;
+        height: 80%;
+        margin: 0 10%;
+        img {
+          @include border_radius(50%);
+          width: 100%;
+          margin: 20px 0;
+          vertical-align: bottom;
+        }
+      }
+    }
+    .member-name {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-size: 22px;
+    }
+  }
+  .students-area {
+    width: 600px;
+    margin: 10px auto;
     .students {
+      width: 250px;
+      height: 270px;
       float: left;
       margin: 20px 25px;
     }
     li {
-      @include box_shadow();
-      background: rgba(200,100,20,0.5);
-      width: $member_list_width;
-      a {
-        .member-image {
-          width: $member_list_height;
-          height: $member_list_height;
-          img {
-            width: 70%;
-            margin: 15%;
-            vertical-align: bottom;
-          }
-        }
-        .member-name {
-          text-align: center;
-        }
-      }
     }
   }
 }

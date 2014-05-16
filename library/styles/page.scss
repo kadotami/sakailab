@@ -1,24 +1,14 @@
 
 @import 'setting';
 .page-title {
-  margin: 0 0 10px 20px;
-  font-size: 25px;
+  margin: 0 0 10px;
+  font-size: 35px;
+  font-family: cursive;
+  padding-left: 10px;
+  border-left:solid 4px #08f;
   a {
     text-decoration: none;
   }
-}
-
-.no-side-page-content {
-  min-height: 500px;
-  width: $contents_width - 60px;
-  margin: 0 auto;
-}
-
-.add-side-page-content {
-  min-height: 500px;
-  width: $add_side_content_width;
-  margin-right: 20px;
-  float: left;
 }
 
 .sidebar {

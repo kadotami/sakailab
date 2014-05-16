@@ -1,7 +1,6 @@
   array =
     language: ['自然言語処理','テリーヌ','情報検索','コトバのウチュウ','Reborn','酒井研','形態素解析','照応解析','deep learning']
-
-  lang = array.language[0]
+  i = 0;
   e = document.getElementById('background')
 
   delete_finish = ()->
@@ -14,8 +13,11 @@
     lang_block = '<div class="random-sentence" style="position:absolute; top:'+top+'px;left:'+left+'px;"><i class="fa fa-star"></i>'+array.language[rand]+'</div>'
     $("#background").append(lang_block)
     setTimeout(random_lang,2000)
+    i++
+    if i >10
+      $("#background").empty();
+      i = 0
 
-  random_lang()
 
   canvas = document.getElementById('background');
   if (canvas.getContext)
