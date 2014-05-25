@@ -30,12 +30,12 @@ body {
 
 
 #container {
-  margin: 0 auto;
+  margin-right: 320px;
   padding: 20px 0;
   .content {
-    position: absolute;
-    margin: 0 80px 30px;
-    width: $contents_width;
+    margin: 0 5% 30px;
+    width: 90%;
+    min-width: 656px;
     padding: 20px;
     background: rgba(255,255,255,0.8);
   }
