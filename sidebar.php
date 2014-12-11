@@ -11,8 +11,10 @@
       <a href="/news"><li>News</li></a>
       <a href="/links"><li>Links</li></a>
       <a href="/contact"><li>Contact</li></a>
-      <a href="http://www.f.waseda.jp/tetsuya/"><li class="last">THE SAKAI LAB (English)</li></a>
+      <a href="http://www.f.waseda.jp/tetsuya/sakai.html"><li class="last">THE SAKAI LAB (English)</li></a>
       <div class="clear-both"></div>
     </ul>
   </div>
 </div>
+
+

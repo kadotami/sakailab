@@ -4,10 +4,19 @@
 		<div class="about_area">
 		</div>
 		<div class="recent_posts">
-		  <h4>新着情報</h4>
-		  <ul>
-		    <?php wp_get_archives( 'type=postbypost&limit=10' ); ?>
-		  </ul>
+		  <?php
+			$categories = get_categories();
+			foreach($categories as $category) :
+			  echo '<h4>' . $category->cat_name . '</h4><ul>';
+			  query_posts('showposts=5&cat=' . $category->cat_ID);
+			    while(have_posts()) :
+			      the_post();
+			      echo '<a href='. get_permalink() .'><li>' . get_the_title() . '</li></a>';
+			    endwhile;
+			  wp_reset_query();
+			  echo '</ul>';
+			endforeach;
+			?>
 		</div>
 	</div>
 </div>

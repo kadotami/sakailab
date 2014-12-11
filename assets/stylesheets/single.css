@@ -17,5 +17,6 @@
     width: 90%;
     margin: 10px 5%; }
   .single-post .post-contents li {
+    padding: 5px 15px;
     margin-left: 5%;
     list-style-type: square; }

@@ -14,8 +14,5 @@
 <body>
 
 	<div id="page-navigator"></div>
-	<div id="background">
-
-	</div>
 <?php wp_head(); ?>
 
