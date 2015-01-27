@@ -1,4 +1,4 @@
-<div id="sidebar">
+<!-- <div id="sidebar">
   <div class="title">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.png">
   </div>
@@ -15,6 +15,6 @@
       <div class="clear-both"></div>
     </ul>
   </div>
-</div>
+</div> -->
 
 

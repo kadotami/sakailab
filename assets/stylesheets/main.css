@@ -9,10 +9,7 @@
     visibility: hidden; }
 
 body {
-  background: #000; }
-
-#header {
-  width: 100%; }
+  background: #F7F7F7; }
 
 #background {
   position: fixed;
