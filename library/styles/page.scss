@@ -11,31 +11,3 @@
   }
 }
 
-.sidebar {
-  width: $sidebar_width;
-  margin: 20px 20px;
-  float: left;
-  ul {
-    width: $sidebar_width - 40px;
-    margin: 0 20px;
-    li {
-      background-image: url(../images/list-back.jpg);
-      border-bottom:solid 1px #4455ff;
-      padding: 0 5px;
-      margin: 3px 0;
-      a {
-        text-decoration: none;
-        display: block;
-      }
-      a:link {
-        color: #fff;
-      }
-      a:visited {
-        color: #fff;
-      }
-      a:hover {
-        color: #fff;
-      }
-    }
-  }
-}

@@ -24,6 +24,7 @@
 				<div class="navigation">
 					<div class="prev"><?php previous_post_link();?></div>
 					<div class="next"><?php next_post_link();?></div>
+					<div class="clear-both"></div>
 				</div>
 
 				<?php

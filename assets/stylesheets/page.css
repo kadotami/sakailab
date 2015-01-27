@@ -6,25 +6,3 @@
   border-left: solid 4px #08f; }
   .page-title a {
     text-decoration: none; }
-
-.sidebar {
-  width: 158px;
-  margin: 20px 20px;
-  float: left; }
-  .sidebar ul {
-    width: 118px;
-    margin: 0 20px; }
-    .sidebar ul li {
-      background-image: url(../images/list-back.jpg);
-      border-bottom: solid 1px #4455ff;
-      padding: 0 5px;
-      margin: 3px 0; }
-      .sidebar ul li a {
-        text-decoration: none;
-        display: block; }
-      .sidebar ul li a:link {
-        color: #fff; }
-      .sidebar ul li a:visited {
-        color: #fff; }
-      .sidebar ul li a:hover {
-        color: #fff; }

@@ -57,8 +57,15 @@ body {
   width: 300px;
   overflow: scroll; }
   #sidebar .title {
+    background: #fff;
     margin: 5px 60px;
-    width: 180px; }
+    width: 180px;
+    height: 180px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -ms-border-radius: 90px;
+    -o-border-radius: 90px;
+    border-radius: 90px; }
     #sidebar .title img {
       width: 100%; }
   #sidebar .sub-title {
