@@ -11,32 +11,8 @@
 body {
   background: #F7F7F7; }
 
-#background {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  color: #fff; }
-  #background .random-sentence {
-    color: #ffff00;
-    font-size: 18px;
-    opacity: 0;
-    -webkit-animation: anime 4s linear 0s 1 normal;
-    -moz-animation: anime 4s linear 0s 1 normal;
-    -ms-animation: anime 4s linear 0s 1 normal;
-    -o-animation: anime 4s linear 0s 1 normal;
-    animation: anime 4s linear 0s 1 normal; }
-
-@-webkit-keyframes 'anime' {
-  0% {
-    opacity: 0; }
-
-  50% {
-    opacity: 1; }
-
-  100% {
-    opacity: 0; } }
-
 #container {
+  width: 1024px;
   margin-right: 320px;
   padding: 20px 0; }
   #container .content {
@@ -93,3 +69,5 @@ body {
   width: 100%;
   text-align: right;
   color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

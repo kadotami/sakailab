@@ -6,16 +6,4 @@ Author URI: http://sakailab.com/
 Description: sakailab
 Version: 1.0
 */
-@import 'assets/stylesheets/reset.css';
-@import 'assets/stylesheets/header.css';
-@import 'assets/stylesheets/main.css';
-@import 'assets/stylesheets/top.css';
-@import 'assets/stylesheets/page.css';
-@import 'assets/stylesheets/single.css';
-@import 'assets/stylesheets/member.css';
-@import 'assets/stylesheets/projects.css';
-@import 'assets/stylesheets/links.css';
-@import 'assets/stylesheets/contact.css';
-
-
-
+@import 'assets/stylesheets/style.css';

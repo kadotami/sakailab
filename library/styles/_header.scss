@@ -1,0 +1,76 @@
+#header {
+  background: $main_blue_color;
+  width: 100%;
+  height: $header_height;
+  padding: 15px;
+  .header-content {
+    width: $main_width;
+    margin: 0 auto;
+    .logo-area {
+      float: left;
+      height: $logo-size;
+      width: $logo-size;
+      img {
+        width: 100%;
+      }
+    }
+    .name-area {
+      padding-left: 20px;
+      color: $gray;
+      float: left;
+      h1 {
+        font-size: 50px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+#en-page-link-bar {
+  width: 100%;
+  padding: 8px 0;
+  color: $gray;
+  background: $en_link_bar_color;
+  text-align: right;
+  a{
+    border: solid 2px #671234;
+    padding:3px;
+  }
+  a,a:link,a:visited {
+    color: $gray;
+    text-decoration: none;
+    margin: 3px 20px;
+  }
+  a:hover {
+    background: #671234;
+  }
+}
+
+#menu-bar {
+  background: $menu_bar_color;
+  padding: 25px 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  ul {
+    @include box_sizing;
+    width: 96%;
+    margin: 0 2%;
+    border-left: dotted 1px #333;
+    a {
+      @include box_sizing;
+      width: 16.66666666666%;
+      text-align: center;
+      float: left;
+      text-decoration: none;
+      border-right: dotted 1px #333;
+      li {
+        display: block;
+      }
+    }
+    a:link,a:visited {
+      color: #440406;
+      font-weight: bold;
+    }
+  }
+}

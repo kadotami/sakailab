@@ -13,14 +13,19 @@
 </head>
 <body>
   <div id="header">
-  	<div class="logo-area">
-  		<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.png">
-  	</div>
-  	<div class="name-area">
-  		<h2>早稲田大学　基幹理工学部　情報理工学科</h2>
-  		<h1>酒井研究室</h1>
-  	</div>
-  	<div class="clear-both"></div>
+  	<div class="header-content">
+	  	<div class="logo-area">
+	  		<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.png">
+	  	</div>
+	  	<div class="name-area">
+	  		<h2>早稲田大学　基幹理工学部　情報理工学科</h2>
+	  		<h1>酒井研究室</h1>
+	  	</div>
+	  	<div class="clear-both"></div>
+	  </div>
+  </div>
+  <div id="en-page-link-bar">
+  	<a href="http://www.f.waseda.jp/tetsuya/sakai.html">THE SAKAI LAB (English)</a>
   </div>
   <div id="menu-bar">
   	<ul>
@@ -30,7 +35,6 @@
       <a href="/news"><li>News</li></a>
       <a href="/links"><li>Links</li></a>
       <a href="/contact"><li>Contact</li></a>
-      <a href="http://www.f.waseda.jp/tetsuya/sakai.html"><li class="last">THE SAKAI LAB (English)</li></a>
       <div class="clear-both"></div>
     </ul>
   </div>

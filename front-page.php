@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 <div id="container">
 	<div class="content">
-		<div class="about_area">
-		</div>
 		<div class="recent_posts">
 		  <?php
 			$categories = get_categories();
@@ -11,7 +9,7 @@
 			  query_posts('showposts=5&cat=' . $category->cat_ID);
 			    while(have_posts()) :
 			      the_post();
-			      echo '<a href='. get_permalink() .'><li>' . get_the_title() . '</li></a>';
+			      echo '<li><a href='. get_permalink() .'>' . get_the_title() . '</a></li>';
 			    endwhile;
 			  wp_reset_query();
 			  echo '</ul>';
@@ -19,7 +17,7 @@
 			?>
 		</div>
 	</div>
+	<?php get_sidebar(); ?>
 </div>
-<?php get_sidebar(); ?>
 </body>
 </html>
