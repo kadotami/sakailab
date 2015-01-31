@@ -2,16 +2,26 @@
   background: $main_blue_color;
   width: 100%;
   height: $header_height;
-  padding: 15px;
+  padding: 15px 0;
   .header-content {
     width: $main_width;
     margin: 0 auto;
     .logo-area {
       float: left;
+      position: relative;
       height: $logo-size;
       width: $logo-size;
+      .rotate-logo{
+        img {
+          @include animation("logo-rotate",15s,linear,0,infinite,normal)
+        }
+      }
       img {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100%;
       }
     }
     .name-area {
@@ -27,6 +37,24 @@
     }
   }
 }
+
+@keyframes logo-rotate {
+  0% { transform: logo-rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes logo-rotate { /*Safari & Chrome */
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes logo-rotate { /*Safari & Chrome */
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@-ms-keyframes logo-rotate { /*Safari & Chrome */
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
 
 #en-page-link-bar {
   width: 100%;
@@ -64,12 +92,13 @@
       float: left;
       text-decoration: none;
       border-right: dotted 1px #333;
+      color: $en_link_bar_color;
       li {
         display: block;
       }
     }
     a:link,a:visited {
-      color: #440406;
+      color: $en_link_bar_color;
       font-weight: bold;
     }
   }

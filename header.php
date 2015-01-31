@@ -15,7 +15,10 @@
   <div id="header">
   	<div class="header-content">
 	  	<div class="logo-area">
-	  		<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.png">
+	  		<div class="rotate-logo">
+	  			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo-circle.svg">
+	  		</div>
+	  		<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.svg">
 	  	</div>
 	  	<div class="name-area">
 	  		<h2>早稲田大学　基幹理工学部　情報理工学科</h2>
