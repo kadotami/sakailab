@@ -2,13 +2,53 @@
 @import 'mixin';
 $bar_width: 600px;
 
+.wrapper {
+  position: relative;
+}
+.section- {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  .section-radio {
+    display: none;
+  }
+  .section-name {
+    display:block;
+    width: 50%;
+    position: relative;
+    z-index: 10;
+    border:solid 1px #888;
+    text-align: center;
+    &:hover {
+      cursor:pointer;
+    }
+  }
+  .section-content {
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    margin:0 0 20px -20px;
+  }
+  .section-radio:checked ~ .section-name {
+    background: #aaa;
+  }
+  .section-radio:checked ~ .section-content {
+    display: block;
+  }
+}
+
+.section-two {
+  margin-left: 50%;
+}
+
 .member-list {
   width: 100%;
   margin: 0;
   font-family: cursive;
   .member-grade {
     width: $bar_width;
-    margin: 20px auto;
+    margin: 0 auto 15px;
     text-align: center;
     font-size: 30px;
   }
@@ -19,27 +59,23 @@ $bar_width: 600px;
     }
     .professor {
       width: 300px;
-      height: 320px;
+      height: 200px;
       margin: 10px auto;
+      a {
+        text-decoration: none;
+      }
     }
     a {
       .member-image {
-        width: 80%;
-        height: 80%;
-        margin: 0 10%;
+        width: 160px;
+        height: 160px;
+        margin: 0 auto;
         img {
           @include border_radius(50%);
           width: 100%;
-          margin: 20px 0;
           vertical-align: bottom;
         }
       }
-    }
-    .member-name {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      font-size: 22px;
     }
   }
   .students-area {
@@ -47,11 +83,22 @@ $bar_width: 600px;
     margin: 10px auto;
     .students {
       width: 250px;
-      height: 270px;
       float: left;
       margin: 20px 25px;
-    }
-    li {
+      .member-name {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 22px;
+      }
     }
   }
 }
+
+.old-student-area {
+  .students {
+
+  }
+}
+
+

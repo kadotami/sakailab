@@ -1,6 +1,11 @@
-#top_slide {
-  width:90%;
-  img {
-    width: 100%;
+.recent-posts {
+  h4 {
+    font-size: 18px;
+  }
+  ul {
+    margin: 0 0 30px 15px;
+    li {
+      line-height: 1.5em;
+    }
   }
 }

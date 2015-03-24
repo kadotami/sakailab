@@ -162,12 +162,16 @@ body {
     min-height: 500px;
     padding: 20px;
     float: left;
-    background: rgba(255, 255, 255, 0.8); }
+    background: #fff; }
   #container #sidebar {
     float: right;
-    min-height: 100%;
-    width: 240px;
+    width: 220px;
+    background: #fff;
+    padding: 5px;
+    border: 8px solid #330406;
     overflow: scroll; }
+    #container #sidebar .widget {
+      margin-bottom: 20px; }
   #container #sidebar:after {
     clear: both; }
 
@@ -178,15 +182,16 @@ body {
   text-align: right;
   color: #fff; }
 
-#top_slide {
-  width: 90%; }
-  #top_slide img {
-    width: 100%; }
+.recent-posts h4 {
+  font-size: 18px; }
+.recent-posts ul {
+  margin: 0 0 30px 15px; }
+  .recent-posts ul li {
+    line-height: 1.5em; }
 
 .page-title {
   margin: 0 0 10px;
-  font-size: 35px;
-  padding-left: 10px; }
+  font-size: 35px; }
   .page-title a {
     text-decoration: none; }
 
@@ -227,13 +232,45 @@ body {
     height: 0;
     visibility: hidden; }
 
+.wrapper {
+  position: relative; }
+
+.section- {
+  position: absolute;
+  top: 0;
+  width: 100%; }
+  .section- .section-radio {
+    display: none; }
+  .section- .section-name {
+    display: block;
+    width: 50%;
+    position: relative;
+    z-index: 10;
+    border: solid 1px #888;
+    text-align: center; }
+    .section- .section-name:hover {
+      cursor: pointer; }
+  .section- .section-content {
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    margin: 0 0 20px -20px; }
+  .section- .section-radio:checked ~ .section-name {
+    background: #aaa; }
+  .section- .section-radio:checked ~ .section-content {
+    display: block; }
+
+.section-two {
+  margin-left: 50%; }
+
 .member-list {
   width: 100%;
   margin: 0;
   font-family: cursive; }
   .member-list .member-grade {
     width: 600px;
-    margin: 20px auto;
+    margin: 0 auto 15px;
     text-align: center;
     font-size: 30px; }
   .member-list ul {
@@ -242,12 +279,14 @@ body {
       position: relative; }
     .member-list ul .professor {
       width: 300px;
-      height: 320px;
+      height: 200px;
       margin: 10px auto; }
+      .member-list ul .professor a {
+        text-decoration: none; }
     .member-list ul a .member-image {
-      width: 80%;
-      height: 80%;
-      margin: 0 10%; }
+      width: 160px;
+      height: 160px;
+      margin: 0 auto; }
       .member-list ul a .member-image img {
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -255,21 +294,30 @@ body {
         -o-border-radius: 50%;
         border-radius: 50%;
         width: 100%;
-        margin: 20px 0;
         vertical-align: bottom; }
-    .member-list ul .member-name {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      font-size: 22px; }
   .member-list .students-area {
     width: 600px;
     margin: 10px auto; }
     .member-list .students-area .students {
       width: 250px;
-      height: 270px;
       float: left;
       margin: 20px 25px; }
+      .member-list .students-area .students .member-name {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 22px; }
+
+.project-page .project-block {
+  margin-left: 15px; }
+.project-page h1 {
+  margin-top: 25px;
+  font-size: 35px; }
+.project-page .member-project {
+  margin-left: 15px; }
+  .project-page .member-project .generation h2 {
+    font-weight: normal;
+    font-size: 20px; }
 
 .links .link-group h2 {
   padding: 0 10px; }
@@ -286,5 +334,28 @@ body {
   width: 500px;
   height: 500px;
   margin: 20px auto; }
+
+#posts .post {
+  margin: 20px 0;
+  border-bottom: 3px dotted #ccc; }
+
+.env-page h2 {
+  font-size: 18px;
+  margin: 20px 0 0 15px; }
+.env-page h4 {
+  font-size: 16px;
+  margin-left: 15px; }
+.env-page p {
+  margin-left: 30px; }
+.env-page .image {
+  width: 500px;
+  margin: 0 auto; }
+  .env-page .image img {
+    width: 100%; }
+.env-page .movie {
+  width: 560px;
+  margin: 0 auto; }
+  .env-page .movie iframe {
+    margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

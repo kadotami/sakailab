@@ -22,6 +22,7 @@
 	  	</div>
 	  	<div class="name-area">
 	  		<h2>早稲田大学　基幹理工学部　情報理工学科</h2>
+        <h2>基幹理工学研究科　情報理工学専修</h2>
 	  		<h1>酒井研究室</h1>
 	  	</div>
 	  	<div class="clear-both"></div>
@@ -32,12 +33,12 @@
   </div>
   <div id="menu-bar">
   	<ul>
-      <a href="/"><li>Top</li></a>
-      <a href="/projects"><li>Projects</li></a>
-      <a href="/members"><li>Members</li></a>
-      <a href="/news"><li>News</li></a>
-      <a href="/links"><li>Links</li></a>
-      <a href="/contact"><li>Contact</li></a>
+      <a href="/"><li>トップ</li></a>
+      <a href="/projects"><li>研究内容</li></a>
+      <a href="/members"><li>メンバー</li></a>
+      <a href="/environment"><li>研究室環境</li></a>
+      <a href="/links"><li>関連リンク</li></a>
+      <a href="/contact"><li>連絡先</li></a>
       <div class="clear-both"></div>
     </ul>
   </div>

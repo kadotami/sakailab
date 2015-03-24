@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div id="container">
 	<div class="content">
-		<div class="recent_posts">
+		<div class="recent-posts">
 		  <?php
 			$categories = get_categories();
 			foreach($categories as $category) :

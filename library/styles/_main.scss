@@ -14,13 +14,18 @@ body {
     min-height: 500px;
     padding: 20px;
     float: left;
-    background: rgba(255,255,255,0.8);
+    background: #fff;
   }
   #sidebar {
     float: right;
-    min-height: 100%;
-    width: 240px;
+    width: 220px;
+    background: #fff;
+    padding: 5px;
+    border: 8px solid $en_link_bar_color;
     overflow: scroll;
+    .widget {
+      margin-bottom: 20px;
+    }
   }
   #sidebar:after{
     clear: both;
