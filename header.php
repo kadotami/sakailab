@@ -29,7 +29,7 @@
 	  </div>
   </div>
   <div id="en-page-link-bar">
-  	<a href="http://www.f.waseda.jp/tetsuya/sakai.html">THE SAKAI LAB (English)</a>
+  	<a href="http://www.f.waseda.jp/tetsuya/">THE SAKAI LAB (English)</a>
   </div>
   <div id="menu-bar">
   	<ul>
