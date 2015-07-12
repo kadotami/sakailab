@@ -13,7 +13,7 @@
       width: $logo-size;
       .rotate-logo{
         img {
-          @include animation("logo-rotate",15s,linear,0,infinite,normal)
+          @include animation("logo-rotate",15s,linear,0s,infinite,normal)
         }
       }
       img {
@@ -39,7 +39,7 @@
 }
 
 @keyframes logo-rotate {
-  0% { transform: logo-rotate(0deg); }
+  0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 @-webkit-keyframes logo-rotate { /*Safari & Chrome */

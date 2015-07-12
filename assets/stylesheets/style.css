@@ -59,11 +59,11 @@ li {
       height: 200px;
       width: 200px; }
       #header .header-content .logo-area .rotate-logo img {
-        -webkit-animation: "logo-rotate" 15s linear 0 infinite normal;
-        -moz-animation: "logo-rotate" 15s linear 0 infinite normal;
-        -ms-animation: "logo-rotate" 15s linear 0 infinite normal;
-        -o-animation: "logo-rotate" 15s linear 0 infinite normal;
-        animation: "logo-rotate" 15s linear 0 infinite normal; }
+        -webkit-animation: "logo-rotate" 15s linear 0s infinite normal;
+        -moz-animation: "logo-rotate" 15s linear 0s infinite normal;
+        -ms-animation: "logo-rotate" 15s linear 0s infinite normal;
+        -o-animation: "logo-rotate" 15s linear 0s infinite normal;
+        animation: "logo-rotate" 15s linear 0s infinite normal; }
       #header .header-content .logo-area img {
         position: absolute;
         top: 0;
@@ -81,7 +81,7 @@ li {
 
 @keyframes logo-rotate {
   0% {
-    transform: logo-rotate(0deg); }
+    transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
 @-webkit-keyframes logo-rotate {
@@ -277,12 +277,13 @@ body {
     text-align: center; }
     .member-list ul li {
       position: relative; }
-    .member-list ul .professor {
+    .member-list ul .doctor {
       width: 300px;
-      height: 200px;
-      margin: 10px auto; }
-      .member-list ul .professor a {
+      margin: 16px auto 48px; }
+      .member-list ul .doctor a {
         text-decoration: none; }
+    .member-list ul .doctor-name {
+      font-size: 28px; }
     .member-list ul a .member-image {
       width: 160px;
       height: 160px;
