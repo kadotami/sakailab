@@ -1,16 +1,23 @@
 #header {
   background: $main_blue_color;
   width: 100%;
-  height: $header_height;
   padding: 15px 0;
   .header-content {
     width: $main_width;
     margin: 0 auto;
+    @media #{$medium-and-down} {
+      width: 100%;
+    }
     .logo-area {
       float: left;
       position: relative;
       height: $logo-size;
       width: $logo-size;
+      @media #{$medium-and-down} {
+        width: 80%;
+        margin: 0 10%;
+        float: none;
+      }
       .rotate-logo{
         img {
           @include animation("logo-rotate",15s,linear,0s,infinite,normal)
@@ -33,6 +40,16 @@
       }
       h2 {
         font-size: 30px;
+      }
+      @media #{$medium-and-down} {
+        float: none;
+        text-align: center;
+        h1 {
+          font-size: 20px;
+        }
+        h2 {
+          font-size: 16px;
+        }
       }
     }
   }

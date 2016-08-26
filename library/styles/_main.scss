@@ -8,6 +8,9 @@ body {
   width: $main_width;
   margin:0 auto;
   padding: 20px 0;
+  @media #{$medium-and-down} {
+    width: 100%;
+  }
   .content {
     margin: 0 0 30px;
     width: 720px;
@@ -15,6 +18,10 @@ body {
     padding: 20px;
     float: left;
     background: #fff;
+    @media #{$medium-and-down} {
+      width: auto;
+      float: none;
+    }
   }
   #sidebar {
     float: right;
@@ -22,6 +29,10 @@ body {
     background: #fff;
     padding: 5px;
     overflow: scroll;
+    @media #{$medium-and-down} {
+      width: auto;
+      float: none;
+    }
     .widget {
       margin-bottom: 20px;
     }
