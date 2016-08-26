@@ -298,6 +298,10 @@ body {
     margin: 0 auto 15px;
     text-align: center;
     font-size: 30px; }
+    @media only screen and (max-width: 992px) {
+      .member-list .member-grade {
+        width: 80%;
+        margin: 0 10%; } }
   .member-list ul {
     text-align: center; }
     .member-list ul li {
@@ -305,6 +309,9 @@ body {
     .member-list ul .doctor {
       width: 300px;
       margin: 16px auto 48px; }
+      @media only screen and (max-width: 992px) {
+        .member-list ul .doctor {
+          width: 100%; } }
       .member-list ul .doctor a {
         text-decoration: none; }
     .member-list ul .doctor-name {
@@ -324,12 +331,19 @@ body {
   .member-list .students-area {
     width: 600px;
     margin: 10px auto; }
+    @media only screen and (max-width: 992px) {
+      .member-list .students-area {
+        width: 100%; } }
     .member-list .students-area .students {
       width: 250px;
       float: left;
       margin: 20px 25px; }
+      @media only screen and (max-width: 992px) {
+        .member-list .students-area .students {
+          width: 100%;
+          margin: 20px 0;
+          float: none; } }
       .member-list .students-area .students .member-name {
-        position: absolute;
         bottom: 0;
         width: 100%;
         font-size: 22px; }

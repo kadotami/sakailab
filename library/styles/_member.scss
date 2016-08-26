@@ -51,6 +51,10 @@ $bar_width: 600px;
     margin: 0 auto 15px;
     text-align: center;
     font-size: 30px;
+    @media #{$medium-and-down} {
+      width: 80%;
+      margin: 0 10%;
+    }
   }
   ul {
     text-align: center;
@@ -60,6 +64,9 @@ $bar_width: 600px;
     .doctor {
       width: 300px;
       margin: 16px auto 48px;
+      @media #{$medium-and-down} {
+        width: 100%;
+      }
       a {
         text-decoration: none;
       }
@@ -83,12 +90,19 @@ $bar_width: 600px;
   .students-area {
     width: 600px;
     margin: 10px auto;
+    @media #{$medium-and-down} {
+      width: 100%;
+    }
     .students {
       width: 250px;
       float: left;
       margin: 20px 25px;
+      @media #{$medium-and-down} {
+        width: 100%;
+        margin: 20px 0;
+        float: none;
+      }
       .member-name {
-        position: absolute;
         bottom: 0;
         width: 100%;
         font-size: 22px;
